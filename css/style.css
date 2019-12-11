@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: 'yeseva-regular';
+    src: url("../fonts/yeseva-regular.ttf");
+}
+.header{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(249, 249, 252), rgb(241, 226, 212), rgb(233, 203, 171), rgb(225, 181, 131), rgb(217, 158, 90), rgb(209, 135, 50), rgb(217, 138, 45), rgb(224, 141, 39), rgb(232, 144, 34), rgb(240, 146, 29), rgb(247, 149, 23), rgb(255, 152, 18));
+}
+.header:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.header-logo{
+    float: left;
+    margin: 20px 0 20px 40px;
+}
+.header-nav{
+
+}
+.header-nav-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    float: right;
+    font-family: yeseva-regular;
+    margin: 71px 15px 0 0;
+}
+.header-nav-list li{
+    margin: 0 24px 0 0;
+
+}
+.header-nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.social-icon-facebook {
+    width: 20px;
+    height: 20px;
+    background-image: url("img/social-icon.jpg");
+    background-size: 170px;
+    background-position-x: 163px;
+    background-position-y: 48px;
+}
+.social-icon-twitter{
+    width: 20px;
+    height: 20px;
+    background-image: url("img/social-icon.jpg");
+    background-size: 170px;
+    background-position-x: 95px;
+    background-position-y: 79px;
+}
+.social-icon-youtube{
+    width: 20px;
+    height: 20px;
+    background-image: url("img/social-icon.jpg");
+    background-size: 170px;
+    background-position-x: 163px;
+    background-position-y: 79px;
+}
+.social-icon-instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url("img/social-icon.jpg");
+    background-size: 170px;
+    background-position-x: 95px;
+    background-position-y: 101px;
+}
