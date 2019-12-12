@@ -17,7 +17,9 @@ body{
 }
 .header-logo{
     float: left;
-    margin: 20px 0 20px 40px;
+    margin: 20px 0 0 40px;
+    width: 95px;
+    height: 120px;
 }
 .header-nav{
 
@@ -28,7 +30,7 @@ body{
     list-style: none;
     float: right;
     font-family: yeseva-regular;
-    margin: 71px 15px 0 0;
+    margin: 100px 15px 0 0;
 }
 .header-nav-list li{
     margin: 0 24px 0 0;
@@ -40,35 +42,33 @@ body{
     color: black;
 
 }
-.social-icon-facebook {
-    width: 20px;
-    height: 20px;
-    background-image: url("img/social-icon.jpg");
-    background-size: 170px;
-    background-position-x: 163px;
-    background-position-y: 48px;
+.header-nav-list li a:hover{
+    color: deepskyblue;
 }
-.social-icon-twitter{
-    width: 20px;
+.social-icon-facebook svg{
     height: 20px;
-    background-image: url("img/social-icon.jpg");
-    background-size: 170px;
-    background-position-x: 95px;
-    background-position-y: 79px;
 }
-.social-icon-youtube{
-    width: 20px;
-    height: 20px;
-    background-image: url("img/social-icon.jpg");
-    background-size: 170px;
-    background-position-x: 163px;
-    background-position-y: 79px;
+.social-icon-facebook svg:hover{
+    fill: deepskyblue;
 }
-.social-icon-instagram{
-    width: 20px;
+
+.social-icon-twitter svg{
     height: 20px;
-    background-image: url("img/social-icon.jpg");
-    background-size: 170px;
-    background-position-x: 95px;
-    background-position-y: 101px;
+
+}
+.social-icon-twitter svg:hover{
+    fill: deepskyblue;
+}
+.social-icon-youtube svg{
+    height: 20px;
+}
+.social-icon-youtube svg:hover{
+    fill: deepskyblue;
+}
+.social-icon-instagram svg{
+    height: 20px;
+
+}
+.social-icon-instagram svg:hover{
+    fill: deepskyblue;
 }
